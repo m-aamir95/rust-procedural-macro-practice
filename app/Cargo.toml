@@ -1,6 +1,11 @@
+
+workspace = {members = ["my-macro"]}
+
 [package]
 name = "app"
 version = "0.1.0"
 edition = "2024"
+resolver = "2"
 
 [dependencies]
+my-macro = {path = "./my-macro/"}
